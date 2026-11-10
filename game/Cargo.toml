@@ -1,0 +1,8 @@
+[package]
+name = "rust_lander"
+version = "0.1.0"
+edition = "2024"
+description = "A moon-landing arcade game you build while learning Rust"
+
+[dependencies]
+macroquad = "0.4"

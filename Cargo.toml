@@ -1,0 +1,8 @@
+[workspace]
+members = ["game"]
+resolver = "3"
+
+# Optimise dependencies (macroquad) even in debug builds so the game runs
+# smoothly, while *your* code still compiles fast.
+[profile.dev.package."*"]
+opt-level = 2
